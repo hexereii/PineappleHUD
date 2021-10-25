@@ -56,41 +56,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
-  "Background"
-    {
-        "ControlName"    "ScalableImagePanel"
-        "fieldName"        "Background"
-        "xpos"            "cs-0.5"
-        "ypos"            "0"
-        "zpos"            "-200"
-        "wide"            "o1.6"
-        "tall"            "f0"
-        "visible"        "0"
-        "enabled"        "1"
-        "image"            ""
-        "scaleImage"    "1"
-        "proportionaltoparent"    "1"
-
-        if_wider
-        {
-            "wide"            "o1.777"
-            "tall"            "f0"
-        }
-
-        if_taller
-        {
-            "wide"            "o1.777"
-            "tall"            "f0"
-        }
-        if_fullmoon
-        {
-            "image"        "../console/title_fullmoon_widescreen"
-        }
-		   if_halloween_0
-        {
-            "image"        "../console/title_fullmoon_widescreen"
-        }
-    }
+  
 		"SaxxySettings"
 		{
 			"xpos"					"0"
@@ -174,6 +140,67 @@
 			"centerwrap"			"1"
 		}
 	}
+	
+	"Background"
+    {
+        "ControlName"    "ScalableImagePanel"
+        "fieldName"        "Background"
+        "xpos"            "cs-0.5"
+        "ypos"            "0"
+        "zpos"            "-200"
+        "wide"            "o1.6"
+        "tall"            "f0"
+        "visible"        "0"
+        "enabled"        "1"
+        "image"            ""
+        "scaleImage"    "1"
+        "proportionaltoparent"    "1"
+
+        if_wider
+        {
+            "wide"            "f0"
+            "tall"            "o0.628"
+        }
+
+        if_taller
+        {
+            "wide"            "o1.6"
+            "tall"            "f0"
+        }
+        
+        if_halloween_0
+        {
+            "image"        "../console/title_team_halloween2015"
+        }
+        if_halloween_1
+        {
+            "image"        "../console/title_team_halloween2015"
+        }
+        if_halloween_2
+        {
+            "image"        "../console/title_team_halloween2015"
+        }
+        if_halloween_3
+        {
+            "image"        "../console/title_team_halloween2015"
+        }
+        if_halloween_4
+        {    
+            "image"        "../console/title_team_halloween2015"
+        }
+        if_halloween_5
+        {    
+            "image"        "../console/title_team_halloween2015"
+        }
+        if_fullmoon
+        {
+            "image"        "../console/title_fullmoon_widescreen"
+        }
+        if_christmas
+        {
+            "image"        "../console/background_xmas2011_widescreen"
+        }        
+    }
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////// RIGHT SIDE FRIEND PANEL //////////////////////////////////////////
@@ -196,7 +223,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"Astral18"
+			"font"			"Spongeboy Me Bob"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -415,7 +442,7 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"labelText"					"Notification"
-			"font"						"Astral12"
+			"font"						"Spongeboy Me Bob"
 			"textAlignment"				"west"
 			"textinsetx"				"48"
 			"AllCaps"					"1"
@@ -751,7 +778,7 @@
 		"ypos"				"85"
 		"zpos"				"15"
 		"wide"				"150"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"1"
 
 		"SubButton"
@@ -768,7 +795,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral18"
+			"font"			"Quake24"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -809,7 +836,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -849,7 +876,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -890,7 +917,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -931,7 +958,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -972,7 +999,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1014,7 +1041,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1055,7 +1082,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1096,7 +1123,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1137,7 +1164,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"use_proportional_insets"	"1"
-			"font"			"Astral12"
+			"font"			"Spongeboy Me Bob"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1396,12 +1423,6 @@
 		}
 	}
 
-	"Background"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"9999"
-	}
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -1432,7 +1453,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TipSubLabel"
-			"font"					"Astral14"
+			"font"					"Spongeboy Me Bob"
 			"labelText"				"%tipsubtext%"
 			"textAlignment"			"center"
 			"xpos"					"20"
@@ -1452,7 +1473,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TipLabel"
-			"font"					"Astral14"
+			"font"					"Spongeboy Me Bob"
 			"labelText"				"%tiptext%"
 			"textAlignment"			"center"
 			"xpos"					"20"

@@ -9,107 +9,7 @@ Scheme
 	Fonts
 	{
 	////////////////////// MainMenu Fonts /////////////////////
-		
-		Astral
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		Astral11
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"11"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		Astral12
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		Astral13
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"13"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-			Astral14
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"13"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-			Astral15
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-					Astral18
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-					Astral24
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-			Astral36
-		{
-			"1"
-			{
-				"name"		"Astral Delight Upright"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		
+
 		Nyan12
 		{
 			"1"
@@ -338,6 +238,18 @@ Scheme
 
 		//QuakeFonts
 
+		Quake6
+		{
+			"1"
+			{
+				"name"		"Spongeboy Me Bob"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
+			}
+		}
+		
 		Quake8
 		{
 			"1"
